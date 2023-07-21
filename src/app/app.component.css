@@ -1,0 +1,67 @@
+input[type=text],[type=email], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid saddlebrown;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:large ;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(8, 83, 12);
+    color: rgb(231, 236, 240);
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   font-weight: bolder;
+}
+input[type=submit]:hover{
+    background-color: rgb(151, 104, 196);
+}
+.form{
+    border-radius: 5px;
+    background-color: rgb(188, 212, 212);
+    padding: 20px;
+    width: 400px;
+    margin: 30px auto;
+    font-size: larger;
+}
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+small{
+    color: red;
+}
+.form-data{
+    border-radius: 5px;
+    background-color: rgb(188, 212, 212);
+    padding: 20px;
+    width: 400px;
+    margin: 30px auto;
+    font-size: larger;
+}
+h3{
+    text-align: center;
+}
+input.ng-invalid.ng-touched{
+border: red 3px solid;
+}
+small{
+    color: red;
+}
+.myForm.INVALID{
+    border: 2px solid red;
+    box-shadow: 0 0 31px rgb(248, 64, 64) !important;
+}
+.myForm.PENDING{
+    border: 2px solid yellow;
+    box-shadow: 0 0 31px rgb(212, 241, 106) !important;
+}
+.myForm.VALID{
+    border: 2px solid green;
+    box-shadow: 0 0 31px rgb(49, 245, 59) !important;
+}
